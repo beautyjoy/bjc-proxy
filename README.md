@@ -1,3 +1,15 @@
+# BJC-Proxy
+
+This is a super-simple proxy server which we use to make serving our lab content
+easy from places that don't support CORS settings (like Github Pages.)
+
+The app currently lives at https://bjcredir.herokuapp.com/
+
+It takes in a URL as the path and operates much like the (now defunct) site corsproxy.com.
+
+
+---
+
 **CORS Anywhere** is a NodeJS proxy which adds CORS headers to the proxied request.
 
 The url to proxy is literally taken from the path, validated and proxied. The protocol
